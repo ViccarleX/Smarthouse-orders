@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const url = 'https://631f96f822cefb1edc4eda3a.mockapi.io/Smarthouse';
         const data = {
             orden: command,
-            usuario: 'USUARIO_ID', // Deberás modificar esto según tu lógica de usuarios
+            usuario: 'víctor', // Deberás modificar esto según tu lógica de usuarios
             fecha: new Date().toLocaleDateString(),
             hora: new Date().toLocaleTimeString()
         };
